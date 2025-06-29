@@ -809,11 +809,11 @@ footer {
     flex-direction: column;
   }
 
-  .about-img,
+  /* .about-img,
   .about-text {
     width: 100%;
     max-width: 100%;
-  }
+  } */
 
   .about-img {
     order: 1;
@@ -824,9 +824,9 @@ footer {
     order: 2;
   }
 
-  .about-features {
+  /* .about-features {
     grid-template-columns: 1fr;
-  }
+  } */
 }
 /* Responsive Styles */
 @media (max-width: 992px) {
