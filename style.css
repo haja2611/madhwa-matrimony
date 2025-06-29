@@ -728,7 +728,7 @@ footer {
   }
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .about-content {
     flex-direction: column;
   }
@@ -774,7 +774,7 @@ footer {
     cursor: pointer;
     color: var(--dark);
   }
-}
+} */
 
 @media (max-width: 768px) {
   header,
