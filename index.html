@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madhwa Matrimony</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <a href="#" class="logo">M<span> M</span></a>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="navigation">
+        <div class="close-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Success Stories</a>
+        <a href="#contact">Contact</a>
+        <a href="#" id="register-btn">Register</a>
+      </div>
+    </header>
+    <!-- Registration Modal -->
+    <div class="modal" id="registration-modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 class="modal-title">Create Your Profile</h2>
+        <form id="registration-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="gender">I am looking for a</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select option</option>
+              <option value="groom">Groom</option>
+              <option value="bride">Bride</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="18"
+              max="100"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">
+            Submit & Continue on WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Find Your Perfect Life Partner</h1>
+        <p>
+          Join thousands of happy couples who found their soulmates through our
+          trusted matrimonial service. Begin your journey to everlasting love
+          today.
+        </p>
+        <a href="#" class="btn" id="create-profile">Create Profile</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <p class="section-subtitle">
+        We understand the importance of finding the right life partner. Our
+        platform is designed to make your search easier and more effective.
+      </p>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="/assets/Madha Home.png" alt="Happy Couple" />
+        </div>
+        <div class="about-text">
+          <h3>Trusted Matrimony Services Since 2010</h3>
+          <p>
+            With over a decade of experience in matchmaking, we've perfected the
+            art of connecting compatible individuals based on shared values,
+            interests, and life goals.
+          </p>
+          <!-- <p>
+            Our advanced compatibility algorithms and personalized approach
+            ensure higher success rates and meaningful connections.
+          </p> -->
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Verified Profiles</h4>
+                <p>
+                  All profiles are manually verified to ensure authenticity and
+                  safety.
+                </p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="feature-text">
+                <h4>High Success Rate</h4>
+                <p>Thousands of successful marriages with our matchmaking.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Privacy Protection</h4>
+                <p>Your data is secure with our advanced privacy controls.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Madhwa Community</h4>
+                <p>
+                  Connect with MADHWA people and to support for marriage
+                  alliance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-subtitle">
+        To connect with MADHWA people and to support for marriage alliance. This
+        process will be digital. No manual intervention. Kannada and Marathi
+        speaking applicants can register.
+      </p>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fas fa-user-friends"></i>
+          <h3>Matchmaking</h3>
+          <p>
+            Our expert matchmakers use advanced compatibility analysis to
+            suggest highly compatible matches based on your preferences.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-heart"></i>
+          <h3>Relationship Coaching</h3>
+          <p>
+            Get personalized guidance from our relationship experts to navigate
+            the journey from first contact to marriage.
+          </p>
+          <br />
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-gem"></i>
+          <h3>Premium Membership</h3>
+          <p>
+            Exclusive access to verified profiles, priority customer support,
+            and personalized matchmaking services.
+          </p>
+          <br />
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+      <h2 class="section-title">Success Stories</h2>
+      <p class="section-subtitle">
+        Hear from couples who found their life partners through Madhwa Matrimony
+        Matrimony.
+      </p>
+      <div class="testimonials-container">
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <div class="testimonial-img">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80"
+                alt="Couple 1"
+              />
+            </div>
+            <p class="testimonial-text">
+              "Madhwa Matrimony made the process so easy and comfortable. We
+              were matched based on deep compatibility, not just superficial
+              factors. Six months after our first message, we got married!"
+            </p>
+            <h4 class="testimonial-author">Sarah & Michael</h4>
+            <p class="testimonial-role">Married since 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <h2>Ready to Find Your Life Partner?</h2>
+      <p>
+        Join our community of singles looking for meaningful relationships.
+        Create your profile today and start your journey to finding love.
+      </p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>About Madhwa Matrimony</h3>
+          <p>
+            Parthasarathy K @Guruprasad a retd bank officer. Matrimony
+            registration service has been taken up to cater for Madhwa
+            community. I hope this service will support our community.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Success Stories</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <div class="footer-contact">
+            <p>
+              <i class="fas fa-map-marker-alt"></i> K Parthasarathy @Guruprasad
+              located in Padi Chennai
+            </p>
+            <p><i class="fas fa-phone-alt"></i> 6380716764</p>
+            <p><i class="fas fa-envelope"></i> info@everaftermatrimony.com</p>
+            <p>
+              <i class="fa-solid fa-clock"></i>Contact between 10am to 4pm<br />Sunday Holiday
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Madhwa Matrimony. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
