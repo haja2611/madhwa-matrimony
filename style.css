@@ -830,9 +830,9 @@ footer {
 }
 /* Responsive Styles */
 @media (max-width: 992px) {
-  header {
+  /* header {
     padding: 15px 50px;
-  }
+  } */
 
   .menu-btn {
     display: block;
@@ -868,6 +868,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+  header {
+    width: 100vw;
+  }
   .hero-content h1 {
     font-size: 36px;
   }
