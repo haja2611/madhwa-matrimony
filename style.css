@@ -320,7 +320,7 @@ header.scrolled {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateY(-50%);
   width: 80px;
   height: 3px;
   background: var(--primary);
@@ -360,7 +360,7 @@ header.scrolled {
   overflow: hidden;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translateY(-100px);
   transition: all 0.8s ease;
   min-width: 300px;
   max-width: 100%;
@@ -368,7 +368,7 @@ header.scrolled {
 
 .about-img.animate {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .about-img img {
@@ -389,13 +389,13 @@ header.scrolled {
   min-width: 300px;
   max-width: 100%;
   padding: 0 15px;
-  transform: translateX(100px);
+  transform: translateY(100px);
   transition: all 0.8s ease 0.3s;
 }
 
 .about-text.animate {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .about-text h3 {
