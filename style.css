@@ -805,6 +805,28 @@ footer {
   .cta h2 {
     font-size: 30px;
   }
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-img,
+  .about-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-img {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    order: 2;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+  }
 }
 /* Responsive Styles */
 @media (max-width: 992px) {
@@ -864,6 +886,9 @@ footer {
 
   .about-features {
     grid-template-columns: 1fr;
+  }
+  .about-content {
+    display: flex;
   }
 
   .services-container {
