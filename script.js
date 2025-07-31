@@ -81,22 +81,22 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // Simple testimonial slider
 const testimonials = [
   {
-    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80",
+    img: "https://i.pinimg.com/736x/22/e1/3b/22e13bc2d38fad9371191a2129eb004e.jpg",
     text: '"Madhwa Matrimony made the process so easy and comfortable. We were matched based on deep compatibility, not just superficial factors. Six months after our first message, we got married!"',
-    author: "Sarah & Michael",
-    role: "Married since 2021",
+    author: "Ananya & Harish",
+    role: "Married in 2023, Chennai",
   },
   {
-    img: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-    text: '"After years of unsuccessful dating, we found each other through Madhwa Matrimony. Their detailed profiles and compatibility matching made all the difference."',
+    img: "https://i.pinimg.com/736x/f0/0f/0d/f00f0dd8f03774f3cee838576470340c.jpg",
+    text: '"As a Madhwa family, we valued tradition and cultural alignment. This platform helped us find the perfect match for our daughter with all our preferences in place. The process was respectful, traditional, and blessed."',
     author: "Priya & Raj",
     role: "Married since 2020",
   },
   {
-    img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-    text: "\"We were both skeptical about online matchmaking, but Madhwa Matrimony's personalized approach proved us wrong. We couldn't be happier!\"",
-    author: "Emily & David",
-    role: "Engaged, 2023",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0O1cVM8NPaIGRvVOlx6uPa4SKTy2iAApYeQ&s",
+    text: '"Madhwa Matrimony brought our families together with values and tradition in mind. From horoscope matching to family introductions, the journey was divine. We are grateful to have found each other through this sacred platform."',
+    author: "Sowmya & Raghav",
+    role: "Married in 2022, Bengaluru",
   },
 ];
 
@@ -136,7 +136,7 @@ showTestimonial(currentTestimonial);
 setInterval(() => {
   currentTestimonial = (currentTestimonial + 1) % testimonials.length;
   showTestimonial(currentTestimonial);
-}, 5000);
+}, 15000);
 
 // Modal Functionality
 const modal = document.getElementById("registration-modal");
@@ -184,7 +184,7 @@ registrationForm.addEventListener("submit", (e) => {
   const whatsappMessage = `New Registration from Madhwa Matrimony:%0A%0A*Name*: ${name}%0A*Email*: ${email}%0A*Phone*: ${phone}%0A*Looking for*: ${lookingFor}%0A*Age*: ${age}`;
 
   // Send to WhatsApp
-  const whatsappUrl = `https://wa.me/918110813081?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/916380716764?text=${whatsappMessage}`;
   window.open(whatsappUrl, "_blank");
 
   // Prepare email data (you'll need backend for actual email sending)
